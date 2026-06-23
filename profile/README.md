@@ -8,42 +8,54 @@ When data is described by **RO-Crate**, it becomes self-describing. OntoBDC leve
 
 Use OntoBDC to manage the lifecycle of your engineering data projects. The runtime orchestrates **L1 Queries** (Discovery), **L2 Actions** (Transformation), and **L3 Use Cases** (State Transitions) to provide reproducible and auditable workflows.
 
+---
+
+## 📺 The End of Engineering Data "Hostage"
+Watch the video below to understand the concept of the "Digital Briefcase" and how OntoBDC solves the Vendor Lock-in problem:
+
+[![OntoBDC Video](https://img.youtube.com/vi/98zhTFi2I14/maxresdefault.jpg)](https://youtu.be/98zhTFi2I14?si=Yc4M2J3uS8GL6ve4)
+
+---
+
 **Table of contents**
 
-- [Project Focus](#project-focus)
-- [Principles](#principles)
-- [Architecture](#architecture)
+- [📖 About the Project](#-about-the-project)
+- [⚠️ The Problem (Single Point of Failure)](#-the-problem-single-point-of-failure)
+- [⚙️ Architecture and Workflow](#️-architecture-and-workflow)
+- [🚀 Main Advantages](#-main-advantages)
 - [Capabilities](#capabilities)
 - [Getting Started](#getting-started)
 - [Entity Framework](#entity-framework)
 - [Useful Links](#useful-links)
-- [Open Source](#open-source)
-- [Contributing](#contributing)
-- [Who uses OntoBDC?](#who-uses-ontobdc)
 
-## Project Focus
+---
 
-OntoBDC works best with **decentralized, portable data projects**. Unlike monolithic systems that lock data into specific databases, OntoBDC assumes data lives in portable packages (Zip/Folder/Local Storage) that can be moved between local environments, cloud, and edge devices without losing semantic meaning or operational capability.
+## 📖 About the Project
+**OntoBDC** is a new, free, and *open-source* standard created to ensure true ownership of engineering data. It solves the vendor lock-in problem by replacing isolated files that require expensive licenses with **Open Semantic Containers ("Digital Briefcases")**.
 
-OntoBDC is commonly used to:
+With OntoBDC, the file is no longer a passive object. It becomes a unified container that carries its own raw data and the instructions to process it, allowing it to be opened and understood by any computer, anywhere.
 
+It is commonly used to:
 - **Standardize** data exchange between diverse engineering disciplines (BIM, GIS, Documents).
 - **Execute** context-aware operations and automated checks without hardcoded pipelines.
 - **Validate** engineering data against defined capabilities and rules ensuring reproducibility.
 
-## Principles
+## ⚠️ The Problem (Single Point of Failure)
+Legacy engineering projects risk becoming inaccessible if the original proprietary software is discontinued or if subscriptions expire. This dependency creates a single point of failure (SPOF), holding data "hostage" and demanding financial tolls just to access your own intellectual property.
 
-- **Semantic**: Data is not just bytes; it has meaning defined by ontologies and metadata (RO-Crate).
-- **Modular**: Capabilities are isolated plugins. You can add new operations without changing the core runtime.
-- **Portable**: The entire runtime and data package are self-contained. Run it on a laptop, a server, or inside a container.
+## ⚙️ Architecture and Workflow
+The transition from static governance to dynamic execution is based on the following pillars:
 
-## Architecture
+* **The "Digital Briefcase" (Portable):** OntoBDC packages original documents, metadata, and processing logic into an autonomous structure. The entire runtime and data package are independent and can run on a laptop, server, or container.
+* **Semantic Model (Context Layer):** Uses [RO-Crate](https://www.researchobject.org/ro-crate/) for semantic metadata and relationships. The container orchestrates project rules, acting as the Single Source of Truth (SSOT).
+* **Capabilities (Modular):** Embedded scripts (isolated plugins) that function as the project's "DNA". They teach the computer how to organize raw data into clean grids, eliminating the need for proprietary macros.
 
-OntoBDC is built on core semantic layers:
+## 🚀 Main Advantages
 
-1.  **Context Layer**: [RO-Crate](https://www.researchobject.org/ro-crate/) for semantic metadata and relationships.
-
-The **Capability Runtime** binds these layers together, dynamically resolving which tools (CLI strategies) apply to the current data state.
+* **Sovereignty and End of Vendor Lock-in:** The standard returns total data ownership to the organization. The entire team can work with the same information without being forced to acquire the same proprietary software.
+* **Offline and Field Execution:** "Self-taught" containers do not depend on the cloud or online validation. Engineers can process massive volumes of data locally (on their laptops) in the middle of a construction site.
+* **Future-Proof:** Packaging data and rules together ensures that an engineering project can be reproduced identically 30 years from now, immunizing the information against technological obsolescence.
+* **AI-Ready:** The *capabilities*-based architecture allows Large Language Models (LLMs) to natively interact with project rules, promoting semantic automations.
 
 ## Capabilities
 
@@ -117,17 +129,12 @@ ontobdc entity --purge
 | 🐙 GitHub | <a href="https://github.com/OntoBDC" target="_blank">github.com/OntoBDC</a> |
 | 📦 PyPI | <a href="https://pypi.org/project/ontobdc" target="_blank">pypi.org/project/ontobdc</a> |
 
-## Open Source
+## Open Source & Contributing
 
 OntoBDC is a free and open-source initiative, licensed under the **Apache License 2.0**.
-We believe in the power of community-driven development to solve complex data interoperability challenges.
+We believe in the power of community-driven development to solve complex data interoperability challenges. We are always on the lookout for contributors to help us fix bugs, create new features, or improve project documentation. If you are interested, feel free to open a PR or issue on GitHub.
 
-## Contributing
-
-We are always on the lookout for contributors to help us fix bugs, create new features, or improve project documentation. If you are interested, feel free to open a PR or issue on GitHub.
-
-## Who uses OntoBDC?
-
+### Who uses OntoBDC?
 OntoBDC is the core engine behind **InfoBIM**, powering semantic data interoperability for complex engineering projects.
 
 ---
