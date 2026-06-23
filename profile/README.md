@@ -13,7 +13,7 @@ Use OntoBDC to manage the lifecycle of your engineering data projects. The runti
 ## 📺 The End of Engineering Data "Hostage"
 Watch the video below to understand the concept of the "Digital Briefcase" and how OntoBDC solves the Vendor Lock-in problem:
 
-[![OntoBDC Video](https://img.youtube.com/vi/98zhTFi2I14/maxresdefault.jpg)](https://youtu.be/98zhTFi2I14?si=Yc4M2J3uS8GL6ve4)
+[![OntoBDC Video](https://img.youtube.com/vi/98zhTFi2I14/maxresdefault.jpg)](https://youtu.be/98zhTFi2I14)
 
 ---
 
