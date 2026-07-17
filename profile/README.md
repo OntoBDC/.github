@@ -1,8 +1,8 @@
-# 🚀 OntoBDC (Ontology-Based Data Capabilities)
+# 🚀 OntoBDC (Ontology-Based Dataset & Containers)
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/OntoBDC/ontobdc-core/blob/main/LICENSE) [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/) [![RO-Crate](https://img.shields.io/badge/RO--Crate-1.1-green)](https://www.researchobject.org/ro-crate/) [![Status](https://img.shields.io/badge/status-active-success)](https://github.com/OntoBDC)
 
-**OntoBDC** (Ontology-Based Data Capabilities) is a domain-driven data architecture and capability runtime for executing ontology-aware data operations on portable datasets. It bridges the gap between static data storage and dynamic semantic execution.
+**OntoBDC** (Ontology-Based Dataset & Containers) is a domain-driven data architecture and capability runtime for executing ontology-aware data operations on portable datasets. It bridges the gap between static data storage and dynamic semantic execution.
 
 When data is described by **RO-Crate**, it becomes self-describing. OntoBDC leverages this metadata to automatically discover and execute available operations relevant to the data context.
 
